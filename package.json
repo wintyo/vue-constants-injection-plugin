@@ -1,0 +1,22 @@
+{
+  "name": "@wintyo/vue-constants-injection-plugin",
+  "version": "0.0.1",
+  "description": "Vue constants injection plugin",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "vue",
+    "typescript"
+  ],
+  "author": "wintyo <wintyo1024@gmail.com>",
+  "license": "MIT",
+  "peerDependencies": {
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "typescript": "^3.7.5"
+  }
+}

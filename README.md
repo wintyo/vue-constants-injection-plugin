@@ -1,0 +1,2 @@
+# Vue Constants Injection Plugin
+
