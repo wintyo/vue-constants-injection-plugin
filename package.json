@@ -14,6 +14,11 @@
     "vue",
     "typescript"
   ],
+  "homepage": "https://github.com/wintyo/vue-constants-injection-plugin",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/wintyo/vue-constants-injection-plugin.git"
+  },
   "author": "wintyo <wintyo1024@gmail.com>",
   "license": "MIT",
   "peerDependencies": {
