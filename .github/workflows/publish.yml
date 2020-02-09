@@ -12,6 +12,7 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: 10.15.x
+          registry-url: https://registry.npmjs.org/
       - name: Install
         run: yarn install
       - name: Build
@@ -20,4 +21,4 @@ jobs:
         if: contains(github.ref, 'tags/v')
         run: npm publish --access public
         env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
